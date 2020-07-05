@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+}
+
+.calc {
+  width: 460px;
+  height: 510px;
+  margin: 10% auto;
+  border-radius: 10px;
+  box-shadow: -16px 12px 100px 12px rgba(0, 0, 0, 0.5);
+  background-color: rgb(37, 130, 236);
+}
+
+input {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border:1px solid black;
+  outline: 0;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.result {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+.input-btn__result {
+  margin-top: 5px;
+  text-align: right;
+  width: 425px;
+  height: 30px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+#result2 {
+  font-size: 18px;
+}
+
+.clear, .backspace {
+  margin: 10px 0;
+  width: 152px;
+  height: 75px;
+  border: 1px solid rgb(88, 177, 245);
+  color: rgb(88, 177, 245);
+  cursor: pointer;
+}
+
+.btns {
+  width: 95%;
+  height: 84%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.input-btn {
+  width: 100px;
+  height: 75px;
+  margin-top: 5px;
+  border: 1px solid rgb(88, 177, 245);
+  color: rgb(88, 177, 245);
+  cursor: pointer;
+}
+
+.operator-right {
+  background-color: rgb(255, 187, 101);
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-btn__divide {
+  width: 100px;
+  height: 75px;
+
+}
+
+.equal-btn {
+  width: 205px;
+  height: 75px;
+  margin-top: 5px;
+  background-color: rgb(88, 177, 245);
+  cursor: pointer;
+}
+
+/* HOVER */
+
+.equal-btn:hover {
+  background-color: rgb(8, 23, 185);
+  color: #fff;
+}
+
+.input-btn:hover {
+  color: #fff;
+  border: 1px solid rgb(8, 23, 185);
+  background-color: rgb(88, 177, 245);
+}
+
+.input-btn__divide:hover,
+.operator-right:hover
+ {
+   color: #fff;
+  border: 1px solid rgb(255, 187, 101);
+  background-color: rgb(207, 123, 38);
+}
+
+.clear:hover,
+.backspace:hover {
+  border: 1px solid rgb(88, 177, 245);
+  color: #fff;
+  background-color: rgb(245, 9, 9);
+}
